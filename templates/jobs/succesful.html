@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<!-- HOME -->
+    <section class="home-section section-hero inner-page overlay bg-image"
+             style="background-image: url('{% static 'images/smile.jpg' %}');"
+             
+      >
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-12">
+            <div class="mb-5 text-center">
+              <h1 class="text-white font-weight-bold">Successful Application!</h1>
+              <p>Good luck in securing the job.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </section>
+
+<section class="bg-white pt-5 testimony-full">
+
+  <div class="owl-carousel single-carousel">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <img class="img-fluid mx-auto" src="{% static 'images/test4.jpg' %}" alt="Image">
+          <blockquote>
+            <p>&ldquo;"Techonect and the whole team at Web Design Enterprise have done a fantastic job for Cafe Courier. Going through a complete website overhaul can be very difficult process, however Techonect's organized and disciplined approach lead our company through it easily.We had high expectations for the visual look and functionality of CafeCourier.com and they met and exceeded our expectations. We look forward to working with them in the near future on another project"&rdquo;</p>
+            <p><cite> &mdash; Richard Anderson</cite></p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <img class="img-fluid mx-auto" src="{% static 'images/test3.jpg' %}" alt="Image">
+          <blockquote>
+            <p>&ldquo;Techonect did a fantastic job in launching and establishing my firm’s social media and web presences. Techonect is a full service, multimedia branding agency, with initial focus on branding content and brand-promotional videos. With multidisciplinary skills and talents, Techonect made sure to market my unique brand powerfully, authentically, uniformly and artistically&rdquo;</p>
+            <p><cite> &mdash; Regina Hall</cite></p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+{% endblock  %}
+
